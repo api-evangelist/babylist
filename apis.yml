@@ -1,9 +1,29 @@
 aid: babylist
 name: BabyList
-description: BabyList is a company surfaced as a portfolio company of 500-global, norwest-venture-partners
-  and added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the
-  enrichment pipeline.
+description: >-
+  Babylist is the leading universal baby registry and a baby-focused commerce and
+  content company for growing families. Because the registry is universal, parents
+  can add any product from any store — including Amazon, Target, and Etsy — to a
+  single list. Babylist has grown into a full ecosystem spanning the Babylist
+  registry, the Babylist Shop, Babylist Health (insurance-covered breast pumps),
+  Babylist Money (family financial planning), expert product guides, and a flagship
+  Los Angeles showroom. More than 10 million people shop with Babylist every year.
+  Surfaced as a portfolio company of 500-global and norwest-venture-partners and
+  added to the API Evangelist network; Babylist runs no public developer API, but
+  it does publish an llms.txt agent surface and an OpenID Connect discovery document.
 url: https://raw.githubusercontent.com/api-evangelist/babylist/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://www.babylist.com/apple-touch-icon-180x180.png
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -13,9 +33,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Baby Registry
+- E-Commerce
+- Retail
+- Family
+- Parenting
+- Health
+- Shopping
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +52,22 @@ maintainers:
 common:
 - type: Website
   url: https://babylist.com
+- type: Blog
+  url: https://www.babylist.com/hello-baby
+- type: SignUp
+  url: https://www.babylist.com/registry/new
+- type: PrivacyPolicy
+  url: https://www.babylist.com/privacy
+- type: TermsOfService
+  url: https://www.babylist.com/terms
+- type: LLMsTxt
+  url: llms/babylist-llms.txt
+- type: WellKnown
+  url: well-known/babylist-well-known.yml
+- type: DomainSecurity
+  url: security/babylist-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

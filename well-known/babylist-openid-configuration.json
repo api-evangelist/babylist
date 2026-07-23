@@ -1,0 +1,1 @@
+{"issuer":"https://www.babylist.com","jwks_uri":"https://www.babylist.com/.well-known/registry_consultant/jwks.json","id_token_signing_alg_values_supported":["ES256"]}

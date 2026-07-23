@@ -1,0 +1,19 @@
+generated: '2026-07-18'
+method: searched
+source: https://www.babylist.com/.well-known/
+host: https://www.babylist.com
+documents:
+- path: /.well-known/openid-configuration
+  status: 200
+  file: babylist-openid-configuration.json
+  note: OIDC discovery document; issuer https://www.babylist.com, ES256 id_token
+    signing, jwks_uri under /.well-known/registry_consultant/jwks.json (Registry
+    Consultant identity surface).
+- path: /.well-known/security.txt
+  status: 404
+- path: /.well-known/oauth-authorization-server
+  status: 404
+- path: /.well-known/api-catalog
+  status: 404
+- path: /.well-known/ai-plugin.json
+  status: 404
